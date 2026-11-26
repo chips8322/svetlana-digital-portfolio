@@ -5,11 +5,12 @@
 <meta name="theme-color" content="#160e0b">
 <title>Светлана Щукина — Цифровые решения</title>
 <meta name="description" content="Сайты, приложения, ИИ-агенты и автоматизация для бизнеса">
-<link rel="preload" href="assets/hero-scene-fast.webp" as="image" fetchpriority="high">
+<link rel="preload" href="assets/hero-scene-fast.webp" as="image" fetchpriority="high" media="(min-width:851px)">
+<link rel="preload" href="assets/hero-scene-mobile.webp" as="image" fetchpriority="high" media="(max-width:850px)">
 <link rel="preload" href="assets/fonts/prata-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/manrope-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="fonts.css?v=2">
-<link rel="stylesheet" href="styles.css?v=15-load-order">
+<link rel="stylesheet" href="styles.css?v=16-responsive-media">
 <meta name="robots" content="noindex, nofollow">
 <link rel="canonical" href="https://chips8322.github.io/svetlana-digital-portfolio/">
 </head>
@@ -17,7 +18,7 @@
 <header class="header wrap"><a class="identity" href="#home"><span>Светлана Щукина</span><small>DIGITAL STUDIO</small></a><span class="descriptor"><i></i> Цифровые решения для бизнеса</span><button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">☰</button><nav id="nav" class="nav" aria-label="Основная навигация"><a href="#services">Услуги</a><a href="#cases">Кейсы</a><a href="#process">Процесс</a><a href="#about">Обо мне</a><a href="#contacts">Контакты</a></nav></header>
 <main>
 <section id="home" class="hero">
-  <div class="scene" aria-hidden="true"></div><video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/hero-scene-fast.webp" aria-hidden="true"><source src="assets/hero-loop.mp4" type="video/mp4"></video><div class="shade" aria-hidden="true"></div>
+  <div class="scene" aria-hidden="true"></div><video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/hero-scene-mobile.webp" aria-hidden="true"><source src="assets/hero-loop.mp4" type="video/mp4"></video><div class="shade" aria-hidden="true"></div>
   <div class="wrap hero-inner">
    <div class="copy"><div class="eyebrow">ТЕХНОЛОГИИ <b>×</b> БИЗНЕС <b>×</b> ЛЮДИ</div>
    <h1>Цифровые решения,<br>которые работают<br><em>на ваш бизнес</em></h1>
@@ -41,7 +42,7 @@
   <div class="catalog-heading"><h2 id="products-title">Возможности <em>для бизнеса</em></h2><p>Сайты, интеллектуальные помощники и собственные цифровые платформы — под задачи и сценарии вашего бизнеса.</p></div>
   <div class="product-list">
    <a class="product-card product-event" href="#cases" aria-label="Платформы для мероприятий и приложения для бизнеса — смотреть кейсы">
-    <div class="product-visual"><img class="eventis-art" src="assets/eventis-card-display.webp" width="1536" height="1024" loading="lazy" fetchpriority="low" alt="Дизайн-презентация EventisPro, платформа мероприятий"></div>
+    <div class="product-visual"><picture class="eventis-picture"><source media="(max-width:850px)" srcset="assets/eventis-card-mobile.webp"><img class="eventis-art" src="assets/eventis-card-display.webp" width="1536" height="1024" loading="lazy" fetchpriority="low" alt="Дизайн-презентация EventisPro, платформа мероприятий"></picture></div>
     <div class="product-content"><div><strong>Платформы для мероприятий</strong><span>Приложения для бизнеса</span></div><b aria-hidden="true">↗</b></div>
    </a>
    <a class="product-card" href="#cases" aria-label="Сайты, которые продают — смотреть кейсы">

@@ -375,6 +375,7 @@ html{scroll-padding-top:32px}
 .scene{background-image:url('assets/hero-scene-fast.webp')}
 .product-visual{padding:22px}
 .eventis-art{width:100%;height:100%;max-width:100%;object-fit:contain;filter:none}
+.eventis-picture{display:block;width:100%;height:100%}
 .product-visual-screen{padding:24px 18px}
 .project-browser{width:100%;position:relative;padding-top:18px;border-radius:10px;overflow:hidden;background:#35231c;box-shadow:0 14px 28px rgba(0,0,0,.22)}
 .project-browser:before{content:'';position:absolute;top:7px;left:10px;width:4px;height:4px;border-radius:50%;background:var(--copper);box-shadow:8px 0 var(--copper),16px 0 var(--copper)}
@@ -436,3 +437,4 @@ html{scroll-padding-top:32px}
  .project-preview .preview-caption small{max-width:100%}
 }
 @media(min-width:1201px) and (max-width:1350px){.descriptor{display:none}}
+@media(max-width:850px){.scene{background-image:url('assets/hero-scene-mobile.webp')}}
